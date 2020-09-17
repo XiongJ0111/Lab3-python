@@ -31,7 +31,7 @@ def run():
   n = input("Enter an int: ")
   print(f"sum is {sum_n(n)}.")
   s = input("Enter a string: ")
-  print(f"{print_n(s,n)}\n")
+  print(f"{print_n(s,n)}")
 
 if __name__ == "__main__":
   run()
