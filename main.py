@@ -26,7 +26,7 @@ def print_n(s,n):
     print(s)
     print_n(s,n)
   else:
-    return("")
+    return()
 
 def run():
   n = input("Enter an int: ")
