@@ -17,7 +17,7 @@ def sum_n(n):
   elif(n>1):
    return(n+sum_n(n-1))
   else:
-   return(1)
+   return(0)
 
 def print_n(s,n):
   n = int(n)
