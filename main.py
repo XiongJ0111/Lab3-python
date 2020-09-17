@@ -23,15 +23,16 @@ def print_n(s,n):
   n = int(n)
   if(n>=1):
     n = n-1
-    return(f"{s}{print_n(s,n)}")
+    print(s)
+    print_n(s,n)
   else:
     return("")
 
 def run():
   n = input("Enter an int: ")
-  print(f"sum is {sum_n(n)}.\n")
+  print(f"sum is {sum_n(n)}.")
   s = input("Enter a string: ")
-  print(f"{print_n(s,n)}\n")
+  print_n(s,n)
 
 if __name__ == "__main__":
   run()
